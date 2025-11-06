@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade calculator</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+<script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+</head>
+<body>
+
+    <h1>Grade Calculator</h1>
+
+    <h2>Enter your scores:</h2>
+
+    <form>
+        <label>Math:</label>
+        <input id="math" type="number" placeholder="Enter Math score"><br>
+        <label>Science:</label>
+        <input id="science" type="number" placeholder="Enter Science score"><br>
+        <label>English:</label>
+        <input id="english" type="number" placeholder="Enter English score"><br>
+        <label>Social Studies:</label>
+        <input id="social_studies" type="number" placeholder="Enter Social Studies score"><br>
+    </form>
+
+    <input type="button" value="Calculate Grade" py-click="calculate_grade">
+
+    <py-script src="main.py"></py-script>
+    
+</body>
+</html>
